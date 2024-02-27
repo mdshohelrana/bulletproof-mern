@@ -27,7 +27,7 @@ To keep the application safe, instead of focusing only on where to store the tok
 #### Handling user data
 
 User info should be considered a global piece of state which should be available from anywhere in the application.
-If you are already using `react-query`, you can use [react-query-auth](https://github.com/mdshohelrana/react-query-auth) library for handling user state which will handle all the things for you after you provide it some configuration. Otherwise, you can use react context + hooks, or some 3rd party state management library.
+If you are already using `react-query`, you can use [react-query-auth](https://github.com/alan2207/react-query-auth) library for handling user state which will handle all the things for you after you provide it some configuration. Otherwise, you can use react context + hooks, or some 3rd party state management library.
 
 [Auth Configuration Example Code](../src/lib/auth.tsx)
 

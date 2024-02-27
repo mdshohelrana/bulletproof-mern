@@ -1,7 +1,7 @@
 # Bulletproof React 🛡️ ⚛️
 
-[![MIT License](https://img.shields.io/github/license/mdshohelrana/client)](https://github.com/mdshohelrana/client/blob/master/LICENCE)
-[![CI](https://github.com/mdshohelrana/client/actions/workflows/ci.yml/badge.svg)](https://github.com/mdshohelrana/client/actions/workflows/ci.yml)
+[![MIT License](https://img.shields.io/github/license/alan2207/bulletproof-react)](https://github.com/alan2207/bulletproof-react/blob/master/LICENCE)
+[![CI](https://github.com/alan2207/bulletproof-react/actions/workflows/ci.yml/badge.svg)](https://github.com/alan2207/bulletproof-react/actions/workflows/ci.yml)
 
 A simple, scalable, and powerful architecture for building production ready React applications.
 

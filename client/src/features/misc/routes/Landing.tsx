@@ -3,14 +3,14 @@ import { useNavigate } from 'react-router';
 import logo from '@/assets/logo.svg';
 import { Button } from '@/components/Elements';
 import { Head } from '@/components/Head';
-import { useAuth } from '@/lib/auth';
+import { useUser } from '@/lib/auth';
 
 export const Landing = () => {
   const navigate = useNavigate();
-  const { user } = useAuth();
+  const user = useUser();
 
   const handleStart = () => {
-    if (user) {
+    if (user.data) {
       navigate('/app');
     } else {
       navigate('/auth/login');
@@ -53,7 +53,7 @@ export const Landing = () => {
             </div>
             <div className="ml-3 inline-flex">
               <a
-                href="https://github.com/mdshohelrana/client"
+                href="https://github.com/alan2207/bulletproof-react"
                 target="_blank"
                 rel="noreferrer"
               >
